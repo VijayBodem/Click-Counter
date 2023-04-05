@@ -1,0 +1,31 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  background-color: #f1f5f8;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #2d3a35;
+  margin: 10px;
+}
+.counter {
+  color: #c20a72;
+}
+.button {
+  background-color: #007bff;
+  cursor: pointer;
+  outline: none;
+  padding: 10px 10px;
+  border: 0;
+  border-radius: 6px;
+  color: #ffffff;
+  margin-top: 10px;
+}
